@@ -18,11 +18,11 @@
             <div class="col-lg-4">
                 <h4>Our Bunker</h4>
                 <div class="hline-w"></div>
-                <p>
+                <a href="https://www.google.com.au/maps/place/{{ site.data.site.address.first.lines }}" target="_blank"><p>
                     {% for line in site.data.site.address.first.lines %}
                         {{ line }} <br>
                     {% endfor %}
-                </p>
+                </p></a>
             </div>
         </div><! --/row -->
     </div><! --/container -->

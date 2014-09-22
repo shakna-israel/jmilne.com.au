@@ -1,8 +1,7 @@
 <div id="portfoliowrap">
-    <div class="portfolio-centered">
+    <div class="portfolio-centered mobile-only">
         {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
-        <div class="recentitems portfolio  mobile-only">
-            {% for project in site.categories['project'] limit:3 %}
+            {% for project in site.categories['project'] limit:include.limit %}
                 <div class="portfolio-item graphic-design">
                     <div class="he-wrap tpl6">
                     <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.img }}" alt="">
@@ -14,14 +13,11 @@
                             </div><!-- he bg -->
                         </div><!-- he view -->
                     </div><!-- he wrap -->
-                    <a href="{{ project.url }}" class="button a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                    <br>
-                    <br>
+                    <a href="{{ project.url }}" class="button a2 mobile-only" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                    <br class="mobile-only">
+                    <br class="mobile-only">
                 </div><!-- end col-12 -->
             {% endfor %}
-            <div class="col-md-4">
-              <a href="{{ "/portfolio_full/" | prepend: site.baseurl }}" class="button a2 mobile-only" data-animate="fadeInUp">View More</a>
-            </div>
         </div><!-- portfolio -->
         <div class="recentitems portfolio desktop-only">
         {% for project in site.categories['project'] limit:include.limit %}
