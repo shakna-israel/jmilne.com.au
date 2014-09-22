@@ -1,2 +1,13 @@
 site/
 .remote-sync.json
+
+_site/about/index.html
+_site/blog/index.html
+_site/blog/tips&tricks/code-snippets/logo-design-contest-starts-now/index.html
+_site/blog/web-design/development/our-new-logo-is-here/index.html
+_site/blog/wordpress/photoshop/time-to-change-your-apps/index.html
+_site/contact/index.html
+_site/feed.xml
+_site/index.html
+_site/project/your-project-name/index.html
+_site/faq/index.html
