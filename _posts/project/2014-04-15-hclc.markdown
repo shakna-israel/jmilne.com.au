@@ -1,0 +1,26 @@
+---
+layout: project
+title:  "Haddon Community Learning Centre"
+date:   2014-04-25 16:54:46
+author: James Milne
+categories:
+- project
+img: hclc_cover.jpg
+thumb: hclc_cover.jpg
+carousel:
+- hclc_01.JPG
+- hclc_02.JPG
+- hclc_03.JPG
+client: Haddon Community Learning Centre
+website: https://shakna-israel.github.io/haddonRevamp/
+---
+####Haddon Community Learning Centre
+The LearnLocal Community Centre at Haddon was running a simple, static, outdated and fairly ugly looking Virb template. (You can see it [here](https://shakna-israel.github.io/hclc_proposal/#/1))
+
+Our original proposal, which you can see [here](https://shakna-israel.github.io/hclc_proposal/), impressed, despite its basic level. From there, we integrated several features:
+
+* Google Calendar integration, seen on the [News]({{ page.website }}/news/) page.
+* Markdown Management. Each course is a simple text document, and immediately appears on the [Enrolment]({{ page.website }}/enrolment/) page.
+* A Search Engine, based on the RSS feed. Seen on the [Search]({{ page.website }}/search.html) page.
+* Click-To-Call links. Seen on the [Contact]({{ page.website }}/contact/) page.
+* Git Versioning
