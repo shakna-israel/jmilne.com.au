@@ -1,13 +1,13 @@
 ---
 layout: question
-title:  "Cloud Storage"
+title:  "Hosting"
 date:   2014-05-15 14:36:21
 author: James Milne
 categories:
 - question
 ---
 
-####Cloud Storage
+####Web Hosting
 Hosting a website can be quite an in-depth process. It is common in the modern world for you to have someone else host your website. Usually, this is the person you bought the domain name from.
 
 ####Our Take
