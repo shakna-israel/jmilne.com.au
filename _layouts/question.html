@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% include wrap.html %}
+
+<div class="container mtb">
+  <div class="row">
+    <div class="col-lg-6">
+      {{ content }}
+    </div>
+    <div class="col-lg-3">
+      <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+      <p>Back to <a href="{{ "/faq/" | prepend: site.baseurl }}">Frequently Asked Questions</a></p>
+    </div>
+  </div><! --/row -->
+</div><! --/container -->

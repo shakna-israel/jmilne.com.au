@@ -1,0 +1,4 @@
+site/
+.remote-sync.json
+/**/compress.sh
+
